@@ -1,0 +1,10 @@
+    1  fg
+    2  ping google.com > /dev/null 2>&1 & fg
+    3  ps aux | grep ping
+    4  kill -15 12064
+    5  Sps aux | grep ping   - written by mistake 
+    6  ps aux | grep ping
+    7  kill 13235
+    8  sudo kill -9 13235
+    9  sudo killall vlc
+   10  whoami; date; history > history_term2.txt

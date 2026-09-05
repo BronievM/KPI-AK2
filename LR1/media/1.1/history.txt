@@ -1,0 +1,96 @@
+    1  uname -a
+    2  sudo apt update && sudo apt upgrade
+    3  cat /etc/apt/sources.list
+    4  sudo apt install vim
+    5  cd ~
+    6  cd ~/Downloads/
+    7  man ls
+    8  ls -la
+    9  dpkg -i package.deb
+   10  sudo dpkg -i package.deb
+   11  cd /
+   12  sudo -i
+   13  echo "hi all"
+   14  echo "$PWD hi all here!"
+   15  touch hi.sh
+   16  cd ~
+   17  touch hi.sh
+   18  echo $PATH
+   19  vi hi.sh
+   20  ~/hi.sh
+   21  chmod a+x hi.sh
+   22  chmod a+rwx hi.sh
+   23  ~/hi.sh
+   24  ~/hi.sh Ukraine
+   25  cp hi.sh scripts/
+   26  mkdir scripts/
+   27  cp hi.sh scripts/
+   28  cp scripts/ Documents/
+   29  cp -r scripts/ Documents/
+   30  cd scripts/
+   31  mv hi.sh ../
+   32  cd ..
+   33  rm scripts
+   34  rm -rf scripts
+   35  cd /bin
+   36  mkdir -p scripts && tar -cvf scripts.tar scripts/
+   37  ls -l
+   38  cd ../..
+   39  mkdir -p scripts && tar -cvf scripts.tar scripts/
+   40  cd ~ && mkdir -p scripts && tar -cvf scripts.tar scripts/
+   41  cat /etc/passwd
+   42  cat /var/log/syslog
+   43  tail -n 20 /var/log/syslog
+   44  less /var/log/syslog
+   45  cd /
+   46  find . -name "dhcp"
+   47  find . -iname "*dhcp*"
+   48  grep -i -r "dhcp" /etc
+   49  grep -i -r "etc" /etc
+   50  ping -c 10  google.com
+   51  (ping google.com &) && date >> ping.log
+   52  qsudo ping -c 10 google.com
+   53  sudo ping -c 10 google.com
+   54  sudo killallping
+   55  g
+   56  sudo killall ping
+   57  sudo ping -c 10 google.com
+   58  vlc &
+   59  sudo snap install vlc
+   60  vlc &
+   61  ls -l
+   62  cd /bin
+   63  ls
+   64  echo "$PATH"
+   65  printenv
+   66  whoami
+   67  cd /etc
+   68  ls -l
+   69  cd ..
+   70  cd lib
+   71  ls -l
+   72  dmesg
+   73  sudo dmesg
+   74  ls -l /dev
+   75  sudo dmesg -C
+   76  dmesg | tail -n 20
+   77  sudo dmesg | tail -n 20
+   78  df -h
+   79  cd /home
+   80  ls -l
+   81  lsmod
+   82  cd /proc
+   83  cat cpuinfo
+   84  echo 1 > /proc/sys/net/ipv4/ip_forward
+   85  sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+   86  sudo su
+   87  echo "vika" > 1.txt
+   88  cd ~
+   89  echo "vika" > 1.txt
+   90  cat 1.txt
+   91  echo "vasya" > 2.txt
+   92  cat 2.txt
+   93  diff 1.txt 2.txt
+   94  history
+   95  lspci
+   96  whoami; date; history > history.txt
