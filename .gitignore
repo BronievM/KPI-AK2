@@ -1,0 +1,21 @@
+# Об'єктні та виконувані файли
+*.o
+*.a
+*.out
+*.exe
+
+# Папки зі скомпільованими результатами
+**/MakeCompiled/
+**/Ninja/
+
+# Тимчасові файли CMake (ігноруємо повністю)
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+
+# Тимчасові файли Ninja
+**/.ninja_deps
+**/.ninja_log
+
+# Тимчасові файли Word
+~$*.docx
