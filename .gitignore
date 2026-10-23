@@ -1,21 +1,35 @@
-# Об'єктні та виконувані файли
+# Object and executable files
 *.o
 *.a
 *.out
 *.exe
 
-# Папки зі скомпільованими результатами
+# Compiled output directories
 **/MakeCompiled/
 **/Ninja/
 
-# Тимчасові файли CMake (ігноруємо повністю)
+# Temporary CMake files (ignore completely)
 **/CMakeFiles/
 **/CMakeCache.txt
 **/cmake_install.cmake
 
-# Тимчасові файли Ninja
+# Temporary Ninja files
 **/.ninja_deps
 **/.ninja_log
 
-# Тимчасові файли Word
+# Temporary Word files
 ~$*.docx
+
+# Linux kernel module files
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+modules.order
+Module.symvers
+
+# Hidden Kbuild command files
+.*.cmd
+
+# Temporary Kbuild build directories
+.tmp_versions/
